@@ -14,11 +14,17 @@ Access the services using:
 [Grafana](http://localhost:3000)
 user: admin
 password: adminadmin
+port: 3000
 Grafana has been pre-condifured with an InflixDB API token (Read-Only)
 
 [Influxdb](http://localhost:8086)
 user: admin
 password: adminadmin
+port: 8086
 
 Telegraf:
 has been pre-configred with an inflixdb API Token (Read/Write)
+
+Mosquitto:
+has been preconfigured to allow anonymus access
+port: 1086
