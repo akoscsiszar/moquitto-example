@@ -3,6 +3,13 @@ This repository contains a running example of feeding data from a simple python 
 
 All config and data files are included as volumes in the repository
 
+To start everything, run
+
+    docker compose up
+
+from the command line at the root of the repository.
+
+Access the services using:
 
 [Grafana](localhost:3000)
 
