@@ -1,0 +1,61 @@
+version: "3.9"
+networks:
+  example_network:
+    driver: bridge
+
+services: 
+  mqtt:
+    image: eclipse-mosquitto
+    volumes:
+      - ./mosquitto/conf:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    ports:
+      - 1883:1883
+      - 9001:9001
+    networks:
+      - example_network
+
+  influxdb:
+    image: influxdb:latest
+    volumes:
+      # Mount for influxdb data directory and configuration
+      - ./influxdb/data:/var/lib/influxdb2:rw
+      - ./influxdb/conf:/etc/influxdb2:rw
+    ports:
+      - "8086:8086"
+    networks:
+      - example_network
+
+  telegraf:
+    image: telegraf
+    depends_on:
+    - influxdb
+    restart: always
+    ports: 
+      - "5050:5050"
+    volumes:
+      - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf
+    environment:
+      - INFLUX_TOKEN=epxgrRo2lXrgm412oCQSEpXUkExEaxGnAR_e-MX1SnbRTtGp7sedTjNlOq5hXjmok-d-VU8WgSdLCg5-D4Ec0A==
+    networks:
+      - example_network
+
+  grafana: 
+        image: grafana/grafana
+        ports:
+            - "3000:3000"
+        depends_on: 
+            - influxdb
+        volumes:
+            - ./grafana:/var/lib/grafana
+        networks:
+        - example_network
+  simplemqttclient:
+    build:
+      context: ./simple-mqtt-client
+      dockerfile: ./Dockerfile
+    depends_on:
+    - mqtt
+    networks:
+        - example_network
