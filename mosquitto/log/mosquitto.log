@@ -110,3 +110,24 @@
 1657644077: Client Ping closed its connection.
 1657644078: mosquitto version 2.0.14 terminating
 1657644078: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1657653093: mosquitto version 2.0.14 starting
+1657653093: Config loaded from /mosquitto/config/mosquitto.conf.
+1657653093: Opening ipv4 listen socket on port 1883.
+1657653093: mosquitto version 2.0.14 running
+1657653095: New connection from 172.18.0.4:50109 on port 1883.
+1657653095: New client connected from 172.18.0.4:50109 as Ping (p2, c1, k60).
+1657653095: New connection from 172.18.0.6:54066 on port 1883.
+1657653095: New client connected from 172.18.0.6:54066 as Telegraf-Consumer-XJIdU (p2, c1, k60).
+1657653121: Client Telegraf-Consumer-XJIdU disconnected.
+1657653227: mosquitto version 2.0.14 starting
+1657653227: Config loaded from /mosquitto/config/mosquitto.conf.
+1657653227: Opening ipv4 listen socket on port 1883.
+1657653227: mosquitto version 2.0.14 running
+1657653228: New connection from 172.19.0.4:54875 on port 1883.
+1657653228: New client connected from 172.19.0.4:54875 as Ping (p2, c1, k60).
+1657653228: New connection from 172.19.0.5:46746 on port 1883.
+1657653228: New client connected from 172.19.0.5:46746 as Telegraf-Consumer-eE6PE (p2, c1, k60).
+1657653415: Client Telegraf-Consumer-eE6PE disconnected.
+1657653425: Client Ping closed its connection.
+1657653426: mosquitto version 2.0.14 terminating
+1657653426: Saving in-memory database to /mosquitto/data//mosquitto.db.

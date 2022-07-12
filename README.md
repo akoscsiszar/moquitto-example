@@ -12,5 +12,13 @@ from the command line at the root of the repository.
 Access the services using:
 
 [Grafana](http://localhost:3000)
+user: admin
+password: adminadmin
+Grafana has been pre-condifured with an InflixDB API token (Read-Only)
 
 [Influxdb](http://localhost:8086)
+user: admin
+password: adminadmin
+
+Telegraf:
+has been pre-configred with an inflixdb API Token (Read/Write)
