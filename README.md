@@ -11,6 +11,6 @@ from the command line at the root of the repository.
 
 Access the services using:
 
-[Grafana](localhost:3000)
+[Grafana](http://localhost:3000)
 
-[Influxdb](localhost:8086)
+[Influxdb](http://localhost:8086)
