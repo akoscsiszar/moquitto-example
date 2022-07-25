@@ -28,3 +28,6 @@ has been pre-configred with an inflixdb API Token (Read/Write)
 Mosquitto:
 has been preconfigured to allow anonymus access
 port: 1086
+
+[NodeRed](http://localhost:1880)
+An example flow has been added that subscribes to the PING MQTT Topic

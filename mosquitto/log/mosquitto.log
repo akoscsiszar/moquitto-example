@@ -131,3 +131,80 @@
 1657653425: Client Ping closed its connection.
 1657653426: mosquitto version 2.0.14 terminating
 1657653426: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658261439: mosquitto version 2.0.14 starting
+1658261439: Config loaded from /mosquitto/config/mosquitto.conf.
+1658261439: Opening ipv4 listen socket on port 1883.
+1658261439: mosquitto version 2.0.14 running
+1658261440: New connection from 172.18.0.4:53345 on port 1883.
+1658261440: New client connected from 172.18.0.4:53345 as Ping (p2, c1, k60).
+1658261442: New connection from 172.18.0.6:46956 on port 1883.
+1658261442: New client connected from 172.18.0.6:46956 as Telegraf-Consumer-kEa28 (p2, c1, k60).
+1658263238: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658265037: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658266836: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658268635: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658270434: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658272232: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658274031: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658275830: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658277629: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658279428: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658281227: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658283026: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658284825: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658286624: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658288423: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658290222: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658292021: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658293820: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658295619: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658297418: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658299217: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658301016: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658302815: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658304614: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658306412: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658308211: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658310010: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658311809: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658313608: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658315407: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658317206: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658319005: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658320804: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658322291: mosquitto version 2.0.14 terminating
+1658322291: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658746267: mosquitto version 2.0.14 starting
+1658746267: Config loaded from /mosquitto/config/mosquitto.conf.
+1658746267: Opening ipv4 listen socket on port 1883.
+1658746267: mosquitto version 2.0.14 running
+1658746267: New connection from 172.18.0.5:38792 on port 1883.
+1658746267: New client connected from 172.18.0.5:38792 as Telegraf-Consumer-pma8R (p2, c1, k60).
+1658746268: New connection from 172.18.0.6:39233 on port 1883.
+1658746268: New client connected from 172.18.0.6:39233 as Ping (p2, c1, k60).
+1658746423: New connection from 172.18.0.2:56682 on port 1883.
+1658746423: New client connected from 172.18.0.2:56682 as Node-Red (p2, c1, k60).
+1658746443: Client Node-Red disconnected.
+1658746443: New connection from 172.18.0.2:56688 on port 1883.
+1658746443: New client connected from 172.18.0.2:56688 as Node-Red (p2, c1, k60).
+1658746595: New connection from 172.18.0.2:56744 on port 1883.
+1658746595: Client Node-Red disconnected.
+1658746595: New client connected from 172.18.0.2:56744 as Node-Red (p2, c1, k60).
+1658746782: Client Telegraf-Consumer-pma8R disconnected.
+1658746782: Client Node-Red closed its connection.
+1658746792: Client Ping closed its connection.
+1658746792: mosquitto version 2.0.14 terminating
+1658746792: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1658746834: mosquitto version 2.0.14 starting
+1658746834: Config loaded from /mosquitto/config/mosquitto.conf.
+1658746834: Opening ipv4 listen socket on port 1883.
+1658746834: mosquitto version 2.0.14 running
+1658746835: New connection from 172.18.0.5:47803 on port 1883.
+1658746835: New client connected from 172.18.0.5:47803 as Ping (p2, c1, k60).
+1658746837: New connection from 172.18.0.7:48586 on port 1883.
+1658746837: New client connected from 172.18.0.7:48586 as Telegraf-Consumer-MoYiq (p2, c1, k60).
+1658746837: New connection from 172.18.0.2:56844 on port 1883.
+1658746837: New client connected from 172.18.0.2:56844 as Node-Red (p2, c1, k60).
+1658746876: New connection from 172.18.0.2:56898 on port 1883.
+1658746876: Client Node-Red already connected, closing old connection.
+1658746876: New client connected from 172.18.0.2:56898 as Node-Red (p2, c1, k60).

@@ -41,6 +41,17 @@ services:
     networks:
       - example_network
 
+  node-red:
+    image: nodered/node-red:latest
+    environment:
+      - TZ=Europe/Amsterdam
+    ports:
+      - "1880:1880"
+    networks:
+      - example_network
+    volumes:
+      - ./node-red:/data
+
   grafana: 
         image: grafana/grafana
         ports:

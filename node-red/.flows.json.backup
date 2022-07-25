@@ -1,0 +1,75 @@
+[
+    {
+        "id": "5acf97b4ba462c4b",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "cc6a7897c052919c",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt",
+        "port": "1883",
+        "clientid": "Node-Red",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c3c93514759ae772",
+        "type": "mqtt in",
+        "z": "5acf97b4ba462c4b",
+        "name": "",
+        "topic": "PING",
+        "qos": "1",
+        "datatype": "utf8",
+        "broker": "cc6a7897c052919c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 640,
+        "wires": [
+            [
+                "65d670e5c49fe92a"
+            ]
+        ]
+    },
+    {
+        "id": "65d670e5c49fe92a",
+        "type": "debug",
+        "z": "5acf97b4ba462c4b",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 640,
+        "wires": []
+    }
+]
