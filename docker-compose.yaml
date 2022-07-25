@@ -42,7 +42,7 @@ services:
       - example_network
 
   node-red:
-    image: nodered/node-red:latest
+    build: ./node-red
     environment:
       - TZ=Europe/Amsterdam
     ports:
@@ -50,7 +50,7 @@ services:
     networks:
       - example_network
     volumes:
-      - ./node-red:/data
+      - ./node-red/data:/data
 
   grafana: 
         image: grafana/grafana

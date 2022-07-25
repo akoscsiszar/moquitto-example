@@ -208,3 +208,8 @@
 1658746876: New connection from 172.18.0.2:56898 on port 1883.
 1658746876: Client Node-Red already connected, closing old connection.
 1658746876: New client connected from 172.18.0.2:56898 as Node-Red (p2, c1, k60).
+1658747429: Client Node-Red closed its connection.
+1658747432: New connection from 172.18.0.2:56938 on port 1883.
+1658747432: New client connected from 172.18.0.2:56938 as Node-Red (p2, c1, k60).
+1658747764: Client Telegraf-Consumer-MoYiq disconnected.
+1658747764: Client Node-Red closed its connection.
